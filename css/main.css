@@ -1,0 +1,584 @@
+/*Google Fonts Integration*/
+
+	@import url('https://fonts.googleapis.com/css?family=Exo:200,400,500,600&display=swap');
+
+/*Global CSS*/
+
+	*{
+		font-family: 'Exo', sans-serif;
+	}
+	.highlight{
+		color: #ff6d6d;
+		text-transform: uppercase;
+		letter-spacing: 6px;
+		margin: 0;
+		font-size: 15px;
+	}
+	h3{
+		color: #282828;
+		font-size: 2.5rem;
+	}
+	p, small{
+		color: #717171;
+		font-weight: 500;
+	}
+
+/*Header Section*/
+
+	.header{
+		background: url(../images/header-bg.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.header-text{
+		min-height: 100vh;
+		padding: 0 16%;
+		text-align: center;
+	}
+	.header-text h1{
+		color: #282828;
+		font-weight: 200;
+		font-size: 4rem;
+		text-align: center;
+		line-height: 1.4;
+	}
+	.header-text img{
+	    display: block;
+	    margin: 5% auto;
+	    width: 7%;
+	    transition: all 0.2s linear;
+	}
+	.header-text img:hover{
+		transform: scale(1.1);
+    	filter: drop-shadow(0px 4px 0px #ccc);
+	}
+	.header-text .btn-cta{
+		text-transform: uppercase;
+		background: #ff6d6d;
+		color: #fff;
+		padding: 0.7rem 3.5rem;
+		margin-bottom: 2%;
+	}
+	.header-text .btn-cta:hover{
+		box-shadow: 0px 2px 5px #b7b8b9;
+    	background: #ec4a4a;
+	}
+	.header-text small{
+	    display: block;
+	}
+
+/*Description Section*/
+
+	.des-text{
+	    padding: 0 15%;
+	}
+	.des-text p{
+	    margin-top: 3%;
+	}
+	.des-img{
+		padding: 0;
+	}
+
+/*Feature Section*/
+
+	.feature{
+		background: url(../images/features-bg.png);
+		background-position: center;
+		background-size: cover;
+		padding: 8% 0;
+		min-height: 690px;
+	}
+	.feature-text{
+	    text-align: center;
+	    margin-bottom: 10%;
+	}
+	.feature-text h3{
+	    margin-bottom: 5%;
+	}
+	.feature .card{
+	    background: transparent;
+	    border: none;
+	    text-align: center;
+	}
+	.feature .card-body img{
+	    display: block;
+	    margin: 0 auto;
+	    width: 25%;
+	}
+	.feature .card-body h4{
+	    font-weight: 500;
+	    margin-top: 5%;
+	    font-size: 20px;
+	}
+	.feature .card-body p{
+	    font-size: 14px;
+	    margin-top: 4%;
+	}
+
+/*Laptop Section*/
+
+	.laptop{
+		background: url(../images/laptop-bg.png);
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		padding: 3% 0;
+	}
+	.laptop .row{
+		min-height: 540px;
+	}
+	.mac{
+		text-align: center;
+	}
+	.mac-design{
+		padding-right: 23%;
+		padding-left: 2%;
+	}
+	.mac-design p{
+	    margin-top: 5%;
+	}
+
+/*Founder Section*/
+
+	.founder{
+		background: url(../images/customer-bg.png);
+		background-size: cover;
+		background-position: center;
+		padding: 3% 0;
+	}
+	.founder .card{
+	    background: transparent;
+	    border: none;
+	    margin-bottom: 3%;
+	}
+	.founder .card-body{
+	    text-align: center;
+	}
+	.founder .card-body img{
+	    width: 25%;
+	    margin-bottom: 4%;
+	}
+	.founder .card-body .highlight{
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    margin-bottom: 4%;
+	}
+	.founder .card-body h4{
+	    color: #fff;
+	    margin: 0;
+	}
+	.founder .card-body p{
+	    font-size: 15px;
+	    font-style: italic;
+	}
+	.row .col{
+		padding: 0;
+	}
+	.partner{
+		text-align: center;
+	}
+	.partner img{
+		width: 50%;
+	}
+
+/*Browser Section*/
+
+	.browser{
+		background: url(../images/design-bg.png);
+		background-size: cover;
+		background-position: center;
+		min-height:710px;
+		padding: 5% 0;
+	}
+	.browser .row .col-12{
+		text-align: center;
+	}
+	.browser .row .col-12 p{
+	    padding: 1% 21%;
+	}
+
+/*Signup Section*/
+
+	.signup{
+		background: #323969;
+		padding-top: 5%;
+		padding-bottom: 3%;
+	}
+	.signup-text{
+		text-align: center;
+	}
+	.signup-text h3{
+	    color: #fff;
+	    margin-bottom: 3%;
+	}
+	.signup .popup img{
+		display: inline-block;
+		padding-top: 5%;
+		padding-right: 2%;
+	}
+	.signup .popup p{
+		display: inline-block;
+		color: #fff;
+	}
+	.signup .form-row .form-control{
+	    background: #474d78;
+	    border: 1px solid #fff;
+	    border-radius: 3px;
+	    color: #fff;
+	    padding: 0rem 1.5rem;
+	    min-height: 50px;
+	}
+	.signup .form-row .form-control:hover,
+	.signup .form-row .form-control:focus{
+		border: 1px solid #7381e0;
+    	box-shadow: none;
+	}
+	.signup .form-row .btn-sign{
+	    background: #ff6d6d;
+	    text-transform: uppercase;
+	    border: none;
+	    transition: all 0.2s linear;
+	}
+	.signup .form-row .btn-sign:hover{
+		background: #de3636;
+    	border: none;
+	}
+	.form-control::-webkit-input-placeholder{
+		color: #fff;
+		font-weight: 300;
+	}
+	.form-control::-ms-input-placeholder{
+		color: #fff;
+		font-weight: 300;
+	}
+	.signup small{
+		display: block;
+		text-align: center;
+		margin-top: 2%;
+	}
+	.signup small a{
+		color: #717171;
+		text-decoration: underline;
+	}
+
+/*Footer Section*/
+
+	.footer{
+	    padding: 3% 0;
+	    background: url(../images/footer-bg.png);
+	    background-size: contain;
+	    background-position: right;
+	    background-repeat: no-repeat;
+	}
+	.footer-text img{
+	    width: 30%;
+	    margin-bottom: 3%;
+	}
+	.footer-text p{
+	    padding-right: 20%;
+	    font-weight: 400;
+	}
+	.footer .links{
+	    list-style: none;
+	    padding:  0;
+	}
+	.footer .links li{
+	    padding: 2% 0;
+	    text-transform: capitalize;
+	}
+	.footer .links li .hpl{
+	    color: #717171;
+	}
+	.footer .form-control{
+	    display: inline;
+	    width: 92%;
+	    background: #f6f6f6;
+	    height: 50px;
+	    border: 1px solid #b8b8bf;
+	}
+	.footer .submit{
+	    padding: 0;
+	    margin-left: -10%;
+	}
+	.footer .submit img{
+		width: 105%;
+		transition: all 0.2s linear;
+	}
+	.footer .submit img:hover,
+	.footer .submit img:focus{    
+		filter: brightness(1.2) contrast(2);
+	}
+	.footer .links-social{
+	    list-style: none;
+	    padding: 0;
+	    margin-top: 5%;
+	    text-align: center;
+	}
+	.footer .links-social li{
+	    display: inline;
+	}
+	.footer .links-social li .btn-links{
+	    padding: 0;
+	}
+	.footer .links-social li .btn-links img{
+	    width: 35%;
+	    transition: all 0.2s linear;
+	}
+	.footer .links-social li .btn-links img:hover{
+		filter: drop-shadow(2px 2px 6px #ccc);
+    	transform: scale(1.2);
+	}
+	}
+	.footer .form-control::-webkit-input-placeholder{
+		color: #717171;
+	}
+	.footer .form-control::-ms-input-placeholder{
+		color: #717171;
+	}
+
+/*Media Querys*/
+
+@media (max-width: 320px) {
+	.highlight{
+		letter-spacing: 4px;
+		font-size: 13px;
+	}
+	h3{
+		font-size: 1.7rem;
+	}
+	.header-text{
+		padding: 0;
+	}
+	.header-text h1{
+		font-size: 1.6rem;
+		line-height: 1.3;
+	}
+	.header-text img{
+	    margin: 7% auto;
+	    width: 14%;
+	}
+	.header-text .btn-cta{
+		padding: 0.5rem 3rem;
+		margin-bottom: 3%;
+	}
+	.header-text small{
+	    font-size: 12px;
+	}
+	.des-text{
+	    padding: 3%;
+	}
+	.des-text p{
+	    margin-top: 2%;
+	    font-size: 14px;
+	}
+	.des-img{
+		padding: 0;
+	}
+	.feature .card-body h4{
+	    margin-top: 5%;
+	    font-size: 17px;
+	}
+	.feature .card-body p{
+	    font-size: 12px;
+	    margin-top: 3%;
+	}
+	.laptop{
+		background-position: top;
+	}
+	.mac{
+		margin-top: 15%;
+	}
+	.mac-design{
+		margin-top: 25%;
+		padding: 2%;
+	}
+	.mac-design p{
+		padding: 2%;
+	}
+	.partner{
+		padding-bottom: 7%;
+	}
+	.browser .row .col-12 p{
+	    padding: 1%;
+	}
+	.signup .form-row .form-control{
+	    margin-bottom: 4%;
+	}
+	.footer{
+	    padding: 3% 0;
+	    background-position: top;
+	}
+	.footer-text p{
+	    padding-right: 15%;
+	}
+	.footer .form-control{
+	    width: 80%;
+	}
+}
+
+@media (max-width: 576px) {
+	.highlight{
+		letter-spacing: 5px;
+		font-size: 16px;
+	}
+	h3{
+		font-size: 2rem;
+	}
+
+	.header-text h1{
+		font-size: 1.9rem;
+	}
+	.header-text img{
+	    width: 12%;
+	}
+	.header-text .btn-cta{
+		padding: 0.6rem 4rem;
+		margin-bottom: 3%;
+	}
+	.des-text{
+	    padding: 3%;
+	}
+	.des-text p{
+	    margin-top: 2%;
+	    font-size: 16px;
+	}
+	.feature{
+		background: #f6f5f3;
+	}
+	.feature .card{
+		min-width: 300px;
+	}
+	.feature .card-body h4{
+		font-size: 24px;
+	}
+	.feature .card-body p{
+    	font-size: 17px;
+	}
+	.laptop{
+		background-position: top;
+	}
+	.mac{
+		margin-top: 10%;
+	}
+	.mac-design{
+		margin-top: 25%;
+		padding: 2%;
+	}
+	.mac-design p{
+		padding: 2%;
+		margin-top: 2%;
+	}
+	.founder .card{
+		min-width: 300px;
+	}
+	.signup .form-row .form-control{
+	    margin-bottom: 4%;
+	}
+	.popup{
+		display: none;
+	}
+	.footer{
+	    padding: 3% 0;
+	    background-position: top;
+	}
+	.footer-text img{
+		width: 20%;
+	}
+}
+
+@media (max-width: 768px) {
+	.highlight{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 2.1rem;
+	}
+	.header-text{
+		padding: 0 10%;
+	}
+	.header-text h1{
+		font-size: 2.6rem;
+		line-height: 1.3;
+	}
+	.header-text img{
+	    margin: 4% auto;
+	    width: 12%;
+	}
+	.header-text .btn-cta{
+		padding: 0.7rem 3.5rem;
+		margin-bottom: 3%;
+	}
+	.header-text small{
+	    font-size: 14px;
+	}
+	.des-text{
+	    padding: 2%;
+	}
+	.feature{
+		background: #f6f5f3;
+		min-height: 500px;
+	}
+	.feature-text{
+		margin-bottom: 3%;
+	}
+	.laptop .row{
+		min-height: 300px;
+	}
+	.mac-design{
+		padding-right: 10%;
+		padding-left: 3%;
+	}
+	.signup .form-row .form-control{
+	    margin-bottom: 4%;
+	}
+	.signup .popup img{
+		padding-top: 5%;
+		padding-right: 0;
+		width: 8%;
+	}
+	.signup .popup p{
+		font-size: 12px;
+	}
+	.footer{
+	    padding: 6% 0;
+	    background-position: top;
+	}
+	.footer .form-control{
+		width: 90%;
+	}
+}
+
+@media (max-width: 992px) {
+	.header-text{
+		padding: 0 10%;
+	}
+	.header-text h1{
+		font-size: 3rem;
+		line-height: 1.3;
+	}
+	.header-text img{
+	    margin: 4% auto;
+	    width: 8%;
+	}
+	.header-text .btn-cta{
+		padding: 0.7rem 3.8rem;
+		margin-bottom: 3%;
+	}
+	.header-text small{
+	    font-size: 16px;
+	}
+	.des-text{
+	    padding: 5%;
+	}
+	.feature{
+		min-height: 500px;
+		background-size: unset;
+	}
+	.mac-design{
+		padding-right: 12%;
+		padding-left: 10%;
+	}
+	.footer .form-control{
+		width: 80%;
+	}
+}
